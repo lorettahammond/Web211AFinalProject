@@ -1,0 +1,10 @@
+.logo{
+  position:absolute; /* important. */
+  
+  width:100px; /* set to your requirements, but remember left margin setting. */
+  height:100px; /* not neccessary if the element needs to grow with content. */
+  border:1px solid #ABF; /* not important. */
+  background-color:#DDF; /* not important. */
+  text-align:center; /*not important. */
+}
+

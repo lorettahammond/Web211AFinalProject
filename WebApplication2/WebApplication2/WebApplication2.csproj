@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{904AB83A-ACD2-498E-9D44-91D873C98685}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About\AboutContact.html" />
+    <Content Include="About\AboutPurpose.html" />
+    <Content Include="About\img\DogQuilt.JPG" />
+    <Content Include="About\img\logoDQ.jpg" />
+    <Content Include="ChartsAndGraphs\Checklist.html" />
+    <Content Include="ChartsAndGraphs\ChoosingThread.html" />
+    <Content Include="ChartsAndGraphs\HowToBindAQuilt.html" />
+    <Content Include="ChartsAndGraphs\img\Binding.jpg" />
+    <Content Include="ChartsAndGraphs\img\DogQuilt.JPG" />
+    <Content Include="ChartsAndGraphs\img\logoDQ.jpg" />
+    <Content Include="ChartsAndGraphs\img\MeasurementConversion.jpg" />
+    <Content Include="ChartsAndGraphs\img\QuiltBackYardage.jpg" />
+    <Content Include="ChartsAndGraphs\MeasurementConversion.html" />
+    <Content Include="ChartsAndGraphs\NeedleSizes.html" />
+    <Content Include="ChartsAndGraphs\QuiltBackFabric.html" />
+    <Content Include="ChartsAndGraphs\QuiltSizeReference.html" />
+    <Content Include="css\border.css" />
+    <Content Include="css\footer.css" />
+    <Content Include="css\hover.css" />
+    <Content Include="css\hoverZoom.css" />
+    <Content Include="css\imageHover.css" />
+    <Content Include="css\logo.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\sbimenu.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\style.txt" />
+    <Content Include="css\style2.css" />
+    <Content Include="css\style3.css" />
+    <Content Include="css\styleHover.css" />
+    <Content Include="css\videostyle.css" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\3RedFlowers Quilt.jpg" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\5.jpg" />
+    <Content Include="Images\6.jpg" />
+    <Content Include="Images\7.jpg" />
+    <Content Include="Images\8.jpg" />
+    <Content Include="Images\AppliqueFlowerQuilt.jpg" />
+    <Content Include="Images\BackgroundPatternAttribution.txt" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\bg10.png" />
+    <Content Include="Images\bg11.png" />
+    <Content Include="Images\bg12.png" />
+    <Content Include="Images\bg2.png" />
+    <Content Include="Images\bg3.png" />
+    <Content Include="Images\bg4.png" />
+    <Content Include="Images\bg5.png" />
+    <Content Include="Images\bg6.png" />
+    <Content Include="Images\bg7.png" />
+    <Content Include="Images\bg8.png" />
+    <Content Include="Images\bg9.png" />
+    <Content Include="Images\BlueWhiteNonTraditionalWeddingRingQuilt.jpg" />
+    <Content Include="Images\ButterflyQuilt.jpg" />
+    <Content Include="Images\default.jpg" />
+    <Content Include="Images\DogQuilt.JPG" />
+    <Content Include="Images\GalleriaAmericanaQuilt.jpg" />
+    <Content Include="Images\GalleriaCircleBurstsQuilt.JPG" />
+    <Content Include="Images\GalleriaEndoftheRainbowQuilt.jpg" />
+    <Content Include="Images\GalleriaGenesis IIQuilt.jpg" />
+    <Content Include="Images\GalleriaPatchworkFlowerQuilt.jpg" />
+    <Content Include="Images\GalleriaVintageValentineQuilt.jpg" />
+    <Content Include="Images\LicenseImages.txt" />
+    <Content Include="Images\logoDQ.jpg" />
+    <Content Include="Images\MultiColoredCirclesQuilt.JPG" />
+    <Content Include="Images\pattern.png" />
+    <Content Include="Images\PinkBurstQuilt.jpeg" />
+    <Content Include="Images\PinkPoppyQuilt.jpg" />
+    <Content Include="Images\PocketbooksPumpsQuilt.jpg" />
+    <Content Include="Images\random_grey_variations.png" />
+    <Content Include="Images\SquareDealPiecedQuilt.jpg" />
+    <Content Include="Images\Sweet-Snowballs-Quilt.JPG" />
+    <Content Include="Images\triangle.png" />
+    <Content Include="Images\TrompatoSquare.jpg" />
+    <Content Include="Images\WhiteArrows Quilt.jpg" />
+    <Content Include="Images\WhiteGoldHeirloomQuilt.jpg" />
+    <Content Include="Index.html" />
+    <Content Include="js\jquery-1.6.1.min.js" />
+    <Content Include="js\jquery.bgImageMenu.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="logoDQ.png" />
+    <Content Include="QuiltGalleria\AmishQuilts.html" />
+    <Content Include="QuiltGalleria\AppliqueQuilts.html" />
+    <Content Include="QuiltGalleria\HandQuilts.html" />
+    <Content Include="QuiltGalleria\img\AmishQuilts\AmishBaliQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AmishQuilts\DoubleWeddingRingQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AmishQuilts\LightInTheValleyQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AmishQuilts\MarinerCompassQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AmishQuilts\PolynesiaSkyQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AmishQuilts\SpinningStarQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AppliqueQuilts\FlowerPetalsQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AppliqueQuilts\GardenQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AppliqueQuilts\LoveBirdsQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AppliqueQuilts\PeacockQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AppliqueQuilts\PoppiesDaisiesQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\AppliqueQuilts\TeapotQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\DogQuilt.JPG" />
+    <Content Include="QuiltGalleria\img\HandQuilts\AutumnQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\HandQuilts\BoatQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\HandQuilts\HandsQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\HandQuilts\OrangePeelQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\HandQuilts\PortlandRosesQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\HandQuilts\ScrapQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\logoDQ.jpg" />
+    <Content Include="QuiltGalleria\img\MachineQuilts\ButterflyQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\MachineQuilts\FeatherQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\MachineQuilts\LongArmFlowerQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\MachineQuilts\MachineSamplerQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\MachineQuilts\PurpleFlowersQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\MachineQuilts\TriangleQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PatchQuilts\CresentQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PatchQuilts\DiamondPatchQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PatchQuilts\DisappearingNinePatchQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PatchQuilts\HeartsQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PatchQuilts\NinePatchQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PatchQuilts\PenguinQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PiecedQuilts\ModernNinePatchQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PiecedQuilts\NeutralCurvesQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PiecedQuilts\RedFoxQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PiecedQuilts\SnowflakeQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PiecedQuilts\StripsQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\PiecedQuilts\WovenRibbonsQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\TrapuntoQuilts\BirdQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\TrapuntoQuilts\DancingFeathersQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\TrapuntoQuilts\PansyQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\TrapuntoQuilts\ShadowQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\TrapuntoQuilts\TulipQuilt.jpg" />
+    <Content Include="QuiltGalleria\img\TrapuntoQuilts\WashAwayQuilt.jpg" />
+    <Content Include="QuiltGalleria\MachineQuilts.html" />
+    <Content Include="QuiltGalleria\PatchQuilts.html" />
+    <Content Include="QuiltGalleria\PiecedQuilts.html" />
+    <Content Include="QuiltGalleria\TrapuntoQuilts.html" />
+    <Content Include="QuiltingPatterns\img\DiagramIA.jpg" />
+    <Content Include="QuiltingPatterns\img\DiagramIB.jpg" />
+    <Content Include="QuiltingPatterns\img\DiagramII.jpg" />
+    <Content Include="QuiltingPatterns\img\DiagramIII.jpg" />
+    <Content Include="QuiltingPatterns\img\DogQuilt.JPG" />
+    <Content Include="QuiltingPatterns\img\drunkards_path_diagramI.jpg" />
+    <Content Include="QuiltingPatterns\img\drunkards_path_diagramII.jpg" />
+    <Content Include="QuiltingPatterns\img\drunkards_path_diagramIII.jpg" />
+    <Content Include="QuiltingPatterns\img\ForthShadesofGreenScallops.jpg" />
+    <Content Include="QuiltingPatterns\img\FortyShadesOfGreenDiagramI.jpg" />
+    <Content Include="QuiltingPatterns\img\FortyShadesOfGreenDiagramII.jpg" />
+    <Content Include="QuiltingPatterns\img\FortyShadesOfGreenDiagramIIIA.jpg" />
+    <Content Include="QuiltingPatterns\img\FortyShadesOfGreenDiagramIIIB.jpg" />
+    <Content Include="QuiltingPatterns\img\FortyShadesOfGreenDiagramIIIC.jpg" />
+    <Content Include="QuiltingPatterns\img\FortyShadesOfGreenDiagramIV.jpg" />
+    <Content Include="QuiltingPatterns\img\FortyShadesOfGreenDiagramV.jpg" />
+    <Content Include="QuiltingPatterns\img\logoDQ.jpg" />
+    <Content Include="QuiltingPatterns\Pattern1.html" />
+    <Content Include="QuiltingPatterns\Pattern2.html" />
+    <Content Include="QuiltingPatterns\Pattern3.html" />
+    <Content Include="QuiltingPatterns\Pattern4.html" />
+    <Content Include="QuiltingPatterns\Pattern5.html" />
+    <Content Include="QuiltingPatterns\Pattern6.html" />
+    <Content Include="StartQuilting\GatheringNecessaryTools.html" />
+    <Content Include="StartQuilting\img\DogQuilt.JPG" />
+    <Content Include="StartQuilting\img\logoDQ.jpg" />
+    <Content Include="StartQuilting\PutItAllTogether.html" />
+    <Content Include="StartQuilting\QuiltMakingProcess.html" />
+    <Content Include="StartQuilting\QuiltTheFabric.html" />
+    <Content Include="StartQuilting\StartQuiltingChoosingFabric.html" />
+    <Content Include="StartQuilting\StartQuiltingQuiltingLingo.html" />
+    <Content Include="StartQuilting\StartQuiltingQuiltingTypes.html" />
+    <Content Include="StartQuilting\StartQuiltingQuiltTechniques.html" />
+    <Content Include="StartQuilting\StartQuiltingQuiltTypes.html" />
+    <Content Include="StartQuilting\StartYourQuilt.html" />
+    <Content Include="TipsAndTechniques\img\DogQuilt.JPG" />
+    <Content Include="TipsAndTechniques\img\logoDQ.jpg" />
+    <Content Include="TipsAndTechniques\TipsTechniquesFabricPreparation.html" />
+    <Content Include="TipsAndTechniques\TipsTechniquesHandQuilting.html" />
+    <Content Include="TipsAndTechniques\TipsTechniquesMachineQuilting.html" />
+    <Content Include="TipsAndTechniques\TipsTechniquesMakingYourFirstQuilt.html" />
+    <Content Include="TipsAndTechniques\TipsTechniquesQuiltingMyths.html" />
+    <Content Include="TipsAndTechniques\TipsTechniquesWorkingWithQuiltingPatterns.html" />
+    <Content Include="ValuableLinks\GreatWebsitesLinks.html" />
+    <Content Include="ValuableLinks\img\DogQuilt.JPG" />
+    <Content Include="ValuableLinks\img\logoDQ.jpg" />
+    <Content Include="ValuableLinks\PatternLinks.html" />
+    <Content Include="ValuableLinks\QuiltingTutorialLinks.html" />
+    <Content Include="ValuableLinks\QuiltKitLinks.html" />
+    <Content Include="ValuableLinks\QuiltQuizLinks.html" />
+    <Content Include="VideoTutorials\BindingAQuilt.html" />
+    <Content Include="VideoTutorials\BuyingFabric.html" />
+    <Content Include="VideoTutorials\HandVsMachineQuilting.html" />
+    <Content Include="VideoTutorials\img\DogQuilt.JPG" />
+    <Content Include="VideoTutorials\img\logoDQ.jpg" />
+    <Content Include="VideoTutorials\LayerandBastingBasics.css" />
+    <Content Include="VideoTutorials\LayerandBastingBasics.html" />
+    <Content Include="VideoTutorials\PreparingYourFabric.html" />
+    <Content Include="VideoTutorials\RotaryCuttingBasics.html" />
+    <Content Include="VideoTutorials\test.txt" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChartsAndGraphs\Charts and Graphs.odt" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="QuiltGalleria\QuiltGalleriaImagesandSources.docx" />
+    <Content Include="QuiltingPatterns\Drunkards_Path_Templates.pdf" />
+    <Content Include="QuiltingPatterns\Garden_Path_Block.pdf" />
+    <Content Include="QuiltingPatterns\Kiss_Block.pdf" />
+    <Content Include="QuiltingPatterns\Pattern Links.docx" />
+    <Content Include="QuiltingPatterns\Pattern Source Listing.docx" />
+    <Content Include="QuiltingPatterns\primitive_tulip_404_templates.pdf" />
+    <Content Include="StartQuilting\HowToMakeAQuiltContent.docx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14723</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:14723/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

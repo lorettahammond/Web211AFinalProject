@@ -1,0 +1,23 @@
+<!--
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ol ol {
+	list-style-type: upper-alpha;
+}
+
+ol ol ol {
+	list-style-type: decimal;
+}
+
+/* Set font sizing */
+ol li {
+	font-size: .875em;
+}
+
+li li {
+	font-size: 1em; /* prevent shrinking text! */
+}
+-->

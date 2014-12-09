@@ -1,0 +1,119 @@
+
+<!--
+body {
+				background-image: url("../images/bg.png");
+				}
+
+
+
+
+<!img {
+	border: 8px solid red;
+}-->
+
+
+
+border {
+    border: 3px solid #DEB887;
+}
+
+p {
+    font-size: 120%;
+	margin-left: 1cm;
+}
+
+ul {
+    font-size: 110%;
+	margin-left: 2cm;
+}
+
+ol {
+    font-size: 110%;
+	margin-left: 2cm;
+}
+
+li {
+    font-size: 110%;
+	margin-left: 2cm;
+}
+
+tr {
+    font-size: 120%;
+}
+
+dl {
+    font-size: 120%;
+	margin-left: 2cm;
+}
+
+links {
+    font-size: 120%;
+	margin-left: 2cm;
+}
+
+
+h1{
+	margin:0 0 13px 0;
+	float:left;
+	clear:both;
+	font-size:50px;
+	padding:12px;
+	text-shadow:0px 0px 1px #000;
+	color:3B0804;
+	font-family:'Lucinda Calligraphy';
+}
+h1 span{
+	color:#e3cbfe;
+	text-align:right;
+	font-size:30px;
+	padding:0 20px;
+	
+h2{
+	margin-top: 150px;
+margin-right: 2px;
+margin-bottom: 13px;
+margin-left: 21px;;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+
+
+
+#wrap{
+    width:600px;    
+    height:400px;
+    background:#000;   
+    position:relative;        
+}
+
+#bottomnav{
+    width:600px;
+    height:50px;
+    background:#F00;
+    position:absolute;
+    bottom:0px;
+
+}
+
+#bottomnav ul{
+    list-style:none;
+    display:inline-block;
+    width:100%;
+}
+
+#bottomnav ul li{
+    width:25%;
+    float:left;
+    text-align:center;
+}
+
+
+
+
+-->

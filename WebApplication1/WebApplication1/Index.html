@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sliding Background Image Menu with jQuery</title>
+		<meta charset="UTF-8" />
+        <meta name="description" content="Sliding Background Image Menu with jQuery" />
+        <meta name="keywords" content="jquery, background image, image, menu, navigation, panels" />
+		<meta name="author" content="Codrops" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/sbimenu.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=News+Cycle&v1' rel='stylesheet' type='text/css' />
+<script type="text/javascript">
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </head>
+    <body>
+		<div class="container">
+			<div class="header">
+				<h1>Discover Quilting</h1>
+				
+			</div>
+			<div class="content">
+				<div id="sbi_container" class="sbi_container">
+					<div class="sbi_panel" data-bg="images/ButterflyQuilt.jpg">
+						<a href="#" class="sbi_label">About</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="About/AboutPurpose.html">Purpose</a></li>
+								<li><a href="About/AboutContact.html">Contact</a></li>
+							</ul>
+						</div>						
+					</div>
+					<div class="sbi_panel" data-bg="images/Sweet-Snowballs-Quilt.jpg">
+						<a href="#" class="sbi_label">Start Quilting</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="StartQuilting/QuiltMakingProcess.html">Quilt Making Process</a></li>
+								<li><a href="StartQuilting/StartQuiltingQuiltTypes.html">Quilt Types</a></li>
+								<li><a href="StartQuilting/StartQuiltingQuiltingTypes.html">Quilting Types</a></li>
+								<li><a href="StartQuilting/StartQuiltingQuiltTechniques.html">Quilting Techniques</a></li>
+								<li><a href="StartQuilting/StartQuiltingChoosingFabric.html">Choosing Fabric</a></li>
+								<li><a href="StartQuilting/StartQuiltingQuiltingLingo.html">Quilting Lingo</a></li>
+							</ul>
+						</div>				
+					
+					</div>
+					<div class="sbi_panel" data-bg="images/SquareDealPiecedQuilt.jpg">
+						<a href="#" class="sbi_label">Quilting Patterns</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="QuiltingPatterns/Pattern2.html">Stairway To Heaven</a></li>
+								<li><a href="QuiltingPatterns/Pattern1.html">Garden Path Block</a></li>								
+								<li><a href="QuiltingPatterns/Pattern3.html">Orange Peel</a></li>
+								<li><a href="QuiltingPatterns/Pattern6.html">Forty Shades of Green</a></li>
+								<li><a href="QuiltingPatterns/Pattern4.html">Primitive Tulip</a></li>
+								<li><a href="QuiltingPatterns/Pattern5.html">Drunkard's Path</a></li>
+								
+							</ul>
+						</div>		
+										
+					</div>
+					<div class="sbi_panel" data-bg="images/AppliqueFlowerQuilt.jpg">
+						<a href="#" class="sbi_label">Tips & Techniques</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="TipsAndTechniques/TipsTechniquesHandQuilting.html">Hand Quilting</a></li>
+								<li><a href="TipsAndTechniques/TipsTechniquesMachineQuilting.html">Machine Quilting</a></li>
+								<li><a href="TipsAndTechniques/TipsTechniquesWorkingWithQuiltingPatterns.html">Working With Quilting Patterns</a></li>
+								<li><a href="TipsAndTechniques/TipsTechniquesFabricPreparation.html">Fabric Preparation</a></li>
+								<li><a href="TipsAndTechniques/TipsTechniquesMakingYourFirstQuilt.html">Making Your First Quilt</a></li>
+								<li><a href="TipsAndTechniques/TipsTechniquesQuiltingMyths.html">Five Quilting Myths</a></li>
+								
+							</ul>
+						</div>						
+					</div>
+					<div class="sbi_panel" data-bg="images/TrompatoSquare.jpg">
+						<a href="#" class="sbi_label">Video Tutorials</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="VideoTutorials/RotaryCuttingBasics.html">Rotary Cutting Basics</a></li>
+								
+								<li><a href="VideoTutorials/LayerandBastingBasics.html">Layering & Basting Basics</a></li>
+								<li><a href="VideoTutorials/BindingAQuilt.html">Binding A Quilt</a></li>
+								<li><a href="VideoTutorials/HandVsMachineQuilting.html">Hand vs. Machine Quilting</a></li>
+			                    <li><a href="VideoTutorials/BuyingFabric.html">Buying Fabric</a></li>
+							</ul>
+						</div>					
+					</div>
+					<div class="sbi_panel" data-bg="images/BlueWhiteNonTraditionalWeddingRingQuilt.jpg">
+						<a href="#" class="sbi_label">Charts & Graphs</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="ChartsandGraphs/Checklist.html">1st Quilt Checklist</a></li>
+								<li><a href="ChartsandGraphs/QuiltSizeReference.html">Quilt Sizing</a></li>
+								<li><a href="ChartsandGraphs/ChoosingThread.html">Choosing Thread</a></li>
+								<li><a href="ChartsandGraphs/QuiltBackFabric.html">Backing Fabric</a></li>
+								<li><a href="ChartsandGraphs/HowToBindAQuilt.html">Binding</a></li>
+								<li><a href="ChartsandGraphs/NeedleSizes.html">Needle Sizes</a></li>
+								<li><a href="ChartsandGraphs/MeasurementConversion.html">Measurement Conversion</a></li>						
+							</ul>
+						</div>						
+					</div>
+					<div class="sbi_panel" data-bg="images/DogQuilt.jpg">
+						<a href="#" class="sbi_label">Valuable Links</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="ValuableLinks/PatternLinks.html">Patterns</a></li>
+								<li><a href="ValuableLinks/GreatWebsitesLinks.html">Great Websites</a></li>
+								<li><a href="ValuableLinks/QuiltingTutorialLinks.html">Quilting Tutorials</a></li>
+								<li><a href="ValuableLinks/QuiltKitLinks.html">Quilt Kits</a></li>
+								<li><a href="ValuableLinks/QuiltQuizLinks.html">Quilting Quizzes</a></li>
+							</ul>
+						</div>						
+					</div>
+					<div class="sbi_panel" data-bg="images/PocketbooksPumpsQuilt.jpg">
+						<a href="#" class="sbi_label">Quilt Galleria</a>
+						<div class="sbi_content">
+							<ul>
+								<li><a href="QuiltGalleria/HandQuilts.html">Hand Quilts</a></li>
+								<li><a href="QuiltGalleria/MachineQuilts.html">Machine Quilts</a></li>
+								<li><a href="QuiltGalleria/PatchQuilts.html">Patch Quilts</a></li>
+								<li><a href="QuiltGalleria/AppliqueQuilts.html">Applique Quilts</a></li>
+								<li><a href="QuiltGalleria/PiecedQuilts.html">Pieced Quilts</a></li>
+								<li><a href="QuiltGalleria/AmishQuilts.html">Amish Quilts</a></li>
+								<li><a href="QuiltGalleria/TrapuntoQuilts.html">Trapunto Quilts</a></li>								
+							</ul>
+						</div>						
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.bgImageMenu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#sbi_container').bgImageMenu({
+					defaultBg	: 'images/WhiteGoldHeirloomQuilt.jpg',
+
+					menuSpeed	: 300,
+					border		: 1,
+					type		: {
+						mode		: 'verticalSlideAlt',
+						speed		: 450,
+						easing		: 'easeOutBack'
+					}
+				});
+			});
+		</script>
+		<script src="http://tympanus.net/codrops/adpacks/demoad.js"></script>
+    </body>
+</html>

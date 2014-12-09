@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Contact</title>
+	<link rel="stylesheet" href="../css/style2.css" /> 
+	<link rel="stylesheet" href="../css/logo.css" />
+	
+	<link rel="stylesheet" href="../css/footer.css" /> 
+	
+<SCRIPT TYPE="text/javascript">
+<!--
+function dropdown(mySel)
+{
+var myWin, myVal;
+myVal = mySel.options[mySel.selectedIndex].value;
+if(myVal)
+   {
+   if(mySel.form.target)myWin = parent[mySel.form.target];
+   else myWin = window;
+   if (! myWin) return true;
+   myWin.location = myVal;
+   }
+return false;
+}
+//-->
+</SCRIPT>
+
+</head>
+
+<body>
+<article>
+	<h1>Contact</h1>
+
+		
+
+
+		
+	
+</article>
+		<div class="logo>
+		<img src="img/logoDQ.jpg" width="200" height="200" alt="DQ Logo" />
+		</div>
+<div>
+
+<form name="htmlform" method="post" action="html_form_send.php">
+<table width="750px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="75" size="35">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="75" size="35">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="100" size="50">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="15" size="15">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="2000" cols="55" rows="25"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">   
+ </td>
+</tr>
+</table>
+</form>
+
+</div>
+
+<FORM 
+     ACTION="../cgi-bin/redirect.pl" 
+     METHOD=POST onSubmit="return dropdown(this.gourl)">
+<SELECT NAME="gourl">
+<OPTION VALUE="">Choose a Web Page...
+
+<OPTION VALUE="http://Web111b Fall 2014/Project/DiscoverQuilting IncludesCSS/DiscoverQuilting/About/AboutPurpose.html" >Purpose
+<OPTION VALUE="/"                          >Idocs Home Page
+<OPTION VALUE="http://www.ninthwonder.com" >Ninth Wonder
+
+</SELECT>
+
+<INPUT TYPE=SUBMIT VALUE="Go">
+</FORM>
+
+
+<footer class="site-footer">
+  Created by: L<sup>2</sup> Designs
+</footer>
+
+
+
+</body>
+</html>
