@@ -79,6 +79,7 @@
     <Content Include="css\hoverZoom.css" />
     <Content Include="css\imageHover.css" />
     <Content Include="css\logo.css" />
+    <Content Include="css\patternBox.css" />
     <Content Include="css\reset.css" />
     <Content Include="css\sbimenu.css" />
     <Content Include="css\style.css" />
