@@ -74,11 +74,16 @@
     <Content Include="ChartsAndGraphs\QuiltBackFabric.html" />
     <Content Include="ChartsAndGraphs\QuiltSizeReference.html" />
     <Content Include="css\border.css" />
+    <Content Include="css\dlClass.css" />
     <Content Include="css\footer.css" />
+    <Content Include="css\headings.css" />
     <Content Include="css\hover.css" />
     <Content Include="css\hoverZoom.css" />
     <Content Include="css\imageHover.css" />
     <Content Include="css\logo.css" />
+    <Content Include="css\olClass.css" />
+    <Content Include="css\pageHeader.css" />
+    <Content Include="css\paragraphClass.css" />
     <Content Include="css\patternBox.css" />
     <Content Include="css\reset.css" />
     <Content Include="css\sbimenu.css" />
@@ -87,6 +92,8 @@
     <Content Include="css\style2.css" />
     <Content Include="css\style3.css" />
     <Content Include="css\styleHover.css" />
+    <Compile Include="css\ulClass.css" />
+    <Content Include="css\videoFooter.css" />
     <Content Include="css\videostyle.css" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.jpg" />
@@ -270,6 +277,8 @@
     <Content Include="QuiltingPatterns\Pattern Source Listing.docx" />
     <Content Include="QuiltingPatterns\primitive_tulip_404_templates.pdf" />
     <Content Include="StartQuilting\HowToMakeAQuiltContent.docx" />
+    <None Include="Properties\PublishProfiles\discoverquilting - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\discoverquilting - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

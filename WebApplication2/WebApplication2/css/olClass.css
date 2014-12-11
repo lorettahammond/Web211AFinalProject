@@ -1,0 +1,23 @@
+﻿
+ li {color:#AD5C5C}
+
+ ol.margins-removed
+{
+	margin: 15px;
+	padding: 0;
+}
+	
+.margins-removed li
+{
+	color:	#7A2929;
+    margin: 25px;
+	padding: 0;
+	font-weight: bold;
+}
+	
+.margins-removed ol
+{
+	margin: 0 0 .5em 0;
+	padding: 0.2cm 1cm;
+
+}
